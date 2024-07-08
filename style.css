@@ -35,7 +35,7 @@ header {
 }
 
 
-ul {
+.ul-header {
     display: flex;
     list-style-type: none;
     gap: 30px;
@@ -112,6 +112,20 @@ h2 {
     min-height: 300px;
     max-width: 500px;
     text-align: center;
+    color: white;
+}
+
+/*Utility*/
+
+.color-blue {
+    color: #7289DA;
+}
+
+.h2-ft-size {
+    font-size: 40px;
+}
+
+.color-white {
     color: white;
 }
 
@@ -237,10 +251,9 @@ p {
 /*Footer*/
 
 .footer-column {
-    background-color: black;
+    background-color: #23272A;
     display: flex;
     width: 100%;
-    min-height: 600px;
     justify-content: center;
     padding: 20px;
 }
@@ -248,8 +261,7 @@ p {
 .footer-info {
     min-height: 300px;
     min-width: 8%;
-    background-color: aqua;
-    border: 1px solid black;
+    background-color: #23272A;
 }
 
 .big {
@@ -260,10 +272,22 @@ p {
     width: 100%;
     display: flex;
     min-height: 100px;
-    background-color: black;
+    background-color: #23272A;
     justify-content: center;
     padding: 20px;
-    border-top: 1px solid white;
+}
+
+.choose-language {
+    display: flex;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.img-footer {
+    height: 20px;
+    width: 30px;
+    margin-right: 5px;
 }
 
 .footer-box-end {
@@ -272,17 +296,38 @@ p {
     justify-content: space-between;
     display: flex;
     width: 50%;
-    background-color: blueviolet;
+    border-top: 1px solid white;
 }
 
-.logo-ft {
-    background-color: orange;
-    padding: 5px;
+.ft-button {
+    background-color: #8DADFC;
+    padding: 10px;
+    border-radius: 50px;
+    border: 0;
+    color: white;
 }
 
-button {
-    background-color: orange;
-    padding: 5px;
+.fa-angle-down {
+    padding-left: 5px;
+    align-content: center;
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+.ft-icon {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.ul-footer {
+    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /*Fine esercizio*/
